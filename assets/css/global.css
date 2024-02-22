@@ -1,0 +1,78 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/bkdex.jpg);
+}
+
+.content {
+    background: transparent;
+    backdrop-filter: blur(8px);
+    padding: 1rem;
+    height: 100vh;
+    width: 95vw;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.content h1{
+    margin: 0;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    background: #6C79DB;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: .80rem;
+}
+
+.pagination button:hover {
+    transform: scale(1.1, 1.1);
+    background: #505dc4;
+}
+
+/* BARRA DE ROLAGEM*/
+
+/* Works on Firefox */
+* {
+    scrollbar-color: transparent;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 20px;
+  } 
+
+  *::-webkit-scrollbar-thumb:hover {
+    border: 1px solid white;
+  } 
+
+  footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
